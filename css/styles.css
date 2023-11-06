@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-* {
-    border: 2px red dotted;
-}
 
 html {
     box-sizing: inherit;
@@ -20,20 +17,34 @@ body {
     margin-right: auto;
 }
 
+
+/* Layout Header y Navs */
+
+.nav-menu,
+.nav-lists {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .header-mid {
     text-align: center;
 }
 
-.nav-menu,
+.header-mid h1,
 .nav-lists {
-    padding: 8px;
-    text-align: center;
+    padding: 5px;
+    margin: 0;
 }
 
 .nav-menu {
     list-style: none;
-    margin: 10px;
-    border: 2px solid black;
+    border-top  : 2px solid black;
+}
+
+.nav-menu ul {
+    margin: 2px, 0, 0, 0;
+    padding: 0;
 }
 
 .nav-lists {
@@ -41,6 +52,7 @@ body {
     font-size: 18px;
     border: 2px solid black;
     background-color: honeydew;
-    margin-left: 10px;
-    margin-right: 8px;
+    margin: 0;
 }
+
+/* Layout Header Navs */
