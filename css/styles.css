@@ -1,0 +1,21 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    border: 2px red solid;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+#centering {
+    max-width: 1640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-mid {
+    text-align: center;
+}
