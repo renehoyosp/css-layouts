@@ -9,12 +9,18 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+}
+
+main {
+    border: 3px solid red;
 }
 
 #centering {
     max-width: 1640px;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid black;
 }
 
 
@@ -55,4 +61,10 @@ body {
     margin: 0;
 }
 
+.img-block {
+    background-color: aquamarine;
+    height: auto;
+    width: 400px;
+    margin: 10px 15px 8px 20px;
+}
 /* Layout Header Navs */
