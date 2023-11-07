@@ -13,14 +13,14 @@ body {
 }
 
 main {
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 #centering {
     max-width: 1640px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 
@@ -45,7 +45,7 @@ main {
 
 .nav-menu {
     list-style: none;
-    border-top  : 2px solid black;
+    /* border-top  : 2px solid black; */
 }
 
 .nav-menu ul {
@@ -56,26 +56,29 @@ main {
 .nav-lists {
     display: inline-block;
     font-size: 18px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: honeydew;
     margin: 0;
 }
 
-
-.img-block {
-    display: block;
-    background-color: aquamarine;
+.img-block {    
+    display: block;  
+    background-color: #f7c257;
     height: auto;
     width: 400px;
     border: 2px solid black;
-    padding: 10px;
+    padding: 5px;
+    margin: auto;
+}
+
+.description-block {         
+    /* border: 2px solid red; */
     margin: auto;
 }
 
 .info-blocks {
-    display: block;
-    margin: 5px;
-    border: 2px solid red;
+    /* border: 2px solid green; */
+
 }
 
 
